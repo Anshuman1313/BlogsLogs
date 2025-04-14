@@ -6,6 +6,15 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  safelist: [
+    'backdrop-blur-md',
+    'backdrop-filter',
+    'bg-white/30',
+    'border-b',
+    'border-white/20',
+    'shadow-lg',
+  ],
+
   theme: {
   	extend: {
   		backgroundImage: {
